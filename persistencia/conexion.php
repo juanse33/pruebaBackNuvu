@@ -3,7 +3,7 @@ class Conexion {
 	private $mysqli;
 	private $resultado;
 	public function abrir(){
-		$this -> mysqli = new mysqli("localhost", "root", "", "pruebaBack");
+		$this -> mysqli = new mysqli("localhost", "id14719550_nuvu", "ue_@FCz{/nIN0cG=", "id14719550_pruebaback");
 		$this -> mysqli -> set_charset("utf8");
 	}
 	public function ultimoId(){
